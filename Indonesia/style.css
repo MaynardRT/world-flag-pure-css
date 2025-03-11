@@ -30,13 +30,13 @@ h1 {
 }
 
 #top {
-    background-color: white;
+    background-color: #ce1127;
     width: 500px;
     height: 150px; /* Adjusted height for the Indonesian flag */
 }
 
 #bottom {
-    background-color: #ce1127;
+    background-color: white;
     width: 500px;
     height: 150px; /* Adjusted height for the Indonesian flag */
 }
