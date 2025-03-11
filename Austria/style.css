@@ -30,7 +30,7 @@ h1 {
     position: relative; /* Keep this for child elements */
 }
 
-#vertical-line {
+#horizontal-line {
     background-color: #fefffd;
     position: absolute;
     width: 500px;
