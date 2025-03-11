@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 html {
     background-color: beige;
     margin: 0;
@@ -16,24 +15,28 @@ body {
     flex-direction: column; /* Stack children vertically */
     justify-content: center; /* Center children vertically */
     align-items: center; /* Center children horizontally */
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font to the entire body */
 }
 
 h1 {
-    margin: 1rem 0; /* Remove default margin */
+    margin: 1rem 0; /* Add some margin for spacing */
     text-align: center; /* Center text horizontally */
-    font-family: 'Roboto';
+}
+
+#flag {
+    display: flex;
+    flex-direction: column; /* Stack #top and #bottom vertically */
+    align-items: center; /* Center the flag horizontally */
 }
 
 #top {
     background-color: white;
     width: 500px;
-    height: 300px;
-    position: absolute; /* Keep this for child elements */
+    height: 150px; /* Adjusted height for the Indonesian flag */
 }
 
 #bottom {
     background-color: #ce1127;
     width: 500px;
-    height: 150px;
-    position: relative; /* Keep this for child elements */
+    height: 150px; /* Adjusted height for the Indonesian flag */
 }
