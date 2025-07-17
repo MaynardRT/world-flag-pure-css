@@ -1,4 +1,4 @@
-# World-Flag-PureCss
+# World Flag Pure Css
 This is a pure CSS flag annotation project
 
 ## ✅ Features
